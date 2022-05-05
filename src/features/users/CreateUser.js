@@ -18,7 +18,6 @@ const handleChange = (e) => {
     setFormData({...formData , [e.target.name]: e.target.value});
 }
 const {username, emailid, mobileNumber, age} = formData;
-  const url = "https://62398c5863fdd477ac146911.mockapi.io/api/users/users";
 
   const postData = (e) => {
     document.getElementById("editSave").disabled = true;
